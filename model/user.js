@@ -5,7 +5,7 @@ const userSchema = mongoose.Schema({
     email: String,
     password: String,
     _id: mongoose.Schema.Types.ObjectId,
-    role: 'admin',
+    role: String,
     adress: {
         street: String,
         zip: String,
